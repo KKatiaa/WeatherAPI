@@ -1,0 +1,16 @@
+.wrapper {
+    position: relative;
+    .positioning {
+        position: absolute;
+        top: 5rem;
+        left: 50%;
+        padding: 1px;
+        transform: translate(-60%, 90%);
+    }
+    .positioningError {
+        position: absolute;
+        top: 10rem;
+        left: 50%;
+        transform: translate(-60%, 90%);
+    }
+}

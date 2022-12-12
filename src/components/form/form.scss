@@ -1,0 +1,30 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Console', "Lucida Console", serif;
+}
+
+.position {
+    position: relative;
+    .wrapper {
+        display: flex;
+        position: absolute;
+        left:30%;
+        top:70%;
+        transform: translate(-50%, 50%);
+        .inputForm {
+            position: absolute;
+            top:25px;
+            width: 15rem;
+            height: 2rem;
+        }
+
+        .button {
+            position: absolute;
+            left:165%;
+            top:25px;
+            width: 5rem;
+            height: 2rem;
+        }
+    }
+}
